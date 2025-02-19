@@ -137,7 +137,7 @@ let About_how_works = () => {
         <div className="process-box-wrap">
           <div className="process-box">
             <div className="process-box_icon">
-              <i className="fa-thin fa-shield-heart" />{" "}
+              <i className="fa-thin fa-phone" />{" "}
               <span className="process-box_num">01</span>
             </div>
             <h3 className="process-box_title">Receiving Call</h3>
