@@ -1,6 +1,6 @@
 @use "sass:math";:root {
     /* --theme-color: #c50a0c; */
-    --theme-color: goldenrod;
+    --theme-color: #fedc17;
 
     --title-color: #1B1B1B;
     --body-color: #74787C;
@@ -87,7 +87,7 @@ td,th {
 }
 
 a {
-    color: var(--theme-color);
+    color: darkgoldenrod;
     text-decoration: none;
     outline: 0;
     -webkit-transition: all ease 0.4s;
@@ -812,7 +812,7 @@ ul.wp-block-rss a {
 
 @media (min-width: 1199px) {
     .row:not([class*="gx-"]) {
-        --bs-gutter-x: 30px
+        --bs-gutter-x: 30px;
     }
 }
 
@@ -1684,13 +1684,13 @@ textarea.is-invalid {
     text-transform: uppercase;
     text-align: center;
     background-color: var(--theme-color);
-    color: #ffffff;
+    color: #000000;
     font-size: 16px;
     font-weight: 600;
     line-height: 1;
     padding: 19.5px 31px;
     border-radius: 0;
-    border: none
+    border: solid 1px;
 }
 
 .as-btn:before {
@@ -1729,18 +1729,18 @@ textarea.is-invalid {
 }
 
 .as-btn.style-skew {
-    -webkit-transform: skew(-20deg);
+    /* -webkit-transform: skew(-20deg); */
     -ms-transform: skew(-20deg);
-    transform: skew(-20deg);
+    /* transform: skew(-20deg); */
     margin-left: 10px;
     margin-right: 10px
 }
 
 .as-btn.style-skew .btn-text {
     display: inline-block;
-    -webkit-transform: skew(20deg);
+    /* -webkit-transform: skew(20deg); */
     -ms-transform: skew(20deg);
-    transform: skew(20deg)
+    /* transform: skew(20deg); */
 }
 
 .as-btn.style2 {
@@ -1759,11 +1759,11 @@ textarea.is-invalid {
 }
 
 .as-btn.style3:hover {
-    color: var(--title-color)
+    color: #ffffff;
 }
 
 .as-btn.style3:before {
-    background-color: var(--white-color)
+    background-color: #000000;
 }
 
 .as-btn.style4 {
@@ -1947,7 +1947,7 @@ textarea.is-invalid {
 .scroll-btn i {
     display: inline-block;
     background-color: var(--theme-color);
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     font-size: 16px;
     width: var(--btn-size, 50px);
@@ -1967,7 +1967,7 @@ textarea.is-invalid {
     top: var(--extra-shape, -6px);
     right: var(--extra-shape, -6px);
     bottom: var(--extra-shape, -6px);
-    background-color: #fff;
+    background-color: #e4e4e4;
     border-radius: inherit;
     z-index: 1
 }
@@ -2038,7 +2038,7 @@ textarea.is-invalid {
 .sub-title {
     font-size: 16px;
     font-weight: 500;
-    color: var(--theme-color);
+    color: goldenrod;
     font-family: var(--title-font);
     text-transform: uppercase;
     margin-top: -0.41em;
@@ -4813,7 +4813,7 @@ a.text-theme:hover,.text-reset:hover {
 
 .header-layout1 .container {
     margin-left: auto;
-    margin-right: 100px
+    /* margin-right: 100px; */
 }
 
 .header-layout1 .header-top {
@@ -4823,7 +4823,7 @@ a.text-theme:hover,.text-reset:hover {
 }
 
 .header-layout1 .header-top a,.header-layout1 .header-top li,.header-layout1 .header-top p,.header-layout1 .header-top span,.header-layout1 .header-top i {
-    color: #ffffff;
+    color: #000000;
 }
 
 .header-layout1 .header-top a:hover {
@@ -4857,7 +4857,7 @@ a.text-theme:hover,.text-reset:hover {
 
 .header-layout1 .menu-area {
     position: relative;
-    background-color: var(--title-color);
+    /* background-color: var(--title-color); */
     background-size: auto;
     background-repeat: repeat;
     z-index: 2
@@ -4868,8 +4868,8 @@ a.text-theme:hover,.text-reset:hover {
 }
 
 .header-layout1 .main-menu>ul>li>a {
-    color: var(--white-color);
-    padding: 41.5px 0
+    color: #000000;
+    padding: 41.5px 0;
 }
 
 .header-layout1 .as-menu-toggle {
@@ -6763,7 +6763,8 @@ blockquote cite:before {
 .as-hero-bg img {
     height: 100%;
     width: 100%;
-    object-fit: cover
+    object-fit: cover;
+    opacity: 0.5;
 }
 
 .scroll-bottom {
@@ -8638,7 +8639,7 @@ blockquote cite:before {
 
 .booking-form4 {
     padding: 15px;
-    background-color: var(--white-color);
+    background-color: #000000;
     border: 1px solid var(--border-color);
     box-shadow: 0px 13px 25px rgba(0,0,0,0.05)
 }
@@ -8811,7 +8812,7 @@ blockquote cite:before {
 
 .contact-box_text {
     text-transform: uppercase;
-    color: var(--theme-color);
+    color: goldenrod;
     font-size: 14px;
     font-weight: 500
 }
@@ -8827,7 +8828,7 @@ blockquote cite:before {
 }
 
 .contact-box_link a:hover {
-    color: var(--theme-color)
+    color: goldenrod;
 }
 
 .contact-box_content {
@@ -8844,7 +8845,7 @@ blockquote cite:before {
 }
 
 .contact-form .form-group>i {
-    color: var(--theme-color)
+    color: goldenrod;
 }
 
 .map-sec {
@@ -8938,7 +8939,7 @@ blockquote cite:before {
 }
 
 .info-card_icon {
-    color: var(--white-color)
+    color: #000000;
 }
 
 .info-card_icon i {
@@ -10902,7 +10903,7 @@ blockquote cite:before {
 }
 
 .process-box_num {
-    color: var(--white-color);
+    color: #000000;
     background-color: var(--theme-color);
     font-size: 48px;
     font-weight: bold;
@@ -13003,7 +13004,7 @@ blockquote cite:before {
 .testi-block_desig {
     display: inline-block;
     margin-bottom: 14px;
-    color: var(--theme-color)
+    color: darkgoldenrod;
 }
 
 .testi-block:hover:before,.testi-block:hover:after {
@@ -14053,4 +14054,99 @@ h3.sec-title{
     width: 100%;
     margin-top: 10px;
     object-fit: cover;
+}
+.copyright-text{
+    color: #000 !important;
+}
+/*Whatsapp Side Nav*/
+.mySidenav1{
+    position: fixed;
+  top: 40%;
+  z-index: 9999;
+    right: 0;
+}
+
+.mySidenav1 a {
+position: absolute;
+right: -110px;
+transition: 0.3s;
+padding: 11px;
+width: 245px;
+text-decoration: none;
+font-size: 18px;
+color: white;
+border-radius: 5px 0px 0px 5px;
+text-align: right;
+}
+
+.mySidenav1 a:hover {
+right: 0;
+color: #fff !important;
+}
+
+.mySidenav1 #about {
+top: 20px;
+background-color: #324b60;
+}
+
+.mySidenav1 #blog {
+top: 80px;
+background-color: #d9b502;
+}
+
+.mySidenav1 #projects {
+top: 140px;
+background-color: #1e5996;
+}
+
+.mySidenav1 #contact {
+top: 200px;
+background-color: #555
+}
+
+
+@media (max-width: 767px) {
+.mySidenav1{
+    position: fixed;
+  top: 40%;
+  z-index: 9999;
+    right: 0;
+}
+
+.mySidenav1 a {
+position: absolute;
+right: -200px;
+transition: 0.3s;
+padding: 11px;
+width: 245px;
+text-decoration: none;
+font-size: 18px;
+color: white;
+border-radius: 5px 0px 0px 5px;
+text-align: right;
+}
+
+.mySidenav1 a:hover {
+right: 0;
+}
+
+.mySidenav1 #about {
+top: 20px;
+background-color: #324b60;
+}
+
+.mySidenav1 #blog {
+top: 80px;
+background-color: #d9b502;
+}
+
+.mySidenav1 #projects {
+top: 140px;
+background-color: #1e5996;
+}
+
+.mySidenav1 #contact {
+top: 200px;
+background-color: #555
+}
 }

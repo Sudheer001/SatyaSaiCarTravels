@@ -12,10 +12,10 @@ function Header() {
                                 <NavLink to={process.env.PUBLIC_URL+"/"} reloadDocument> Home </NavLink>
                             </li>
                             <li>
-                                <NavLink to={process.env.PUBLIC_URL+"/About"}>About Us</NavLink>
+                                <NavLink to={process.env.PUBLIC_URL+"/Car-Travels-in-Guntur"}>About Us</NavLink>
                             </li>
                             <li>
-                                <NavLink to={process.env.PUBLIC_URL+"/Tariff"}>Our Cars & Tariff</NavLink>
+                                <NavLink to={process.env.PUBLIC_URL+"/Guntur-Car-Travels-Rates"}>Our Cars & Tariff</NavLink>
                             </li>
                             <li>
                                 <NavLink to={process.env.PUBLIC_URL+"/GalleryPage"}>Gallery</NavLink>
@@ -73,13 +73,13 @@ function Header() {
                                                         <NavLink to={process.env.PUBLIC_URL+"/"} reloadDocument > Home </NavLink>
                                                     </li>
                                                     <li>
-                                                        <NavLink to={process.env.PUBLIC_URL+"/About"}>About Us</NavLink>
+                                                        <NavLink to={process.env.PUBLIC_URL+"/Car-Travels-in-Guntur"}>About Us</NavLink>
                                                     </li>
                                                     {/* <li>
                                                         <NavLink to={process.env.PUBLIC_URL+"/Services"}>Our Services</NavLink>
                                                     </li> */}
                                                     <li>
-                                                        <NavLink to={process.env.PUBLIC_URL+"/Tariff"}>Our Cars & Tariff</NavLink>
+                                                        <NavLink to={process.env.PUBLIC_URL+"/Guntur-Car-Travels-Rates"}>Our Cars & Tariff</NavLink>
                                                     </li>
                                                     <li>
                                                         <NavLink to={process.env.PUBLIC_URL+"/GalleryPage"}>Gallery</NavLink>

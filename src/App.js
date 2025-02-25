@@ -22,9 +22,9 @@ function App() {
        <Header/>
       <Routes>
          <Route path={process.env.PUBLIC_URL+'/'} element={<Home/>} />
-         <Route path={process.env.PUBLIC_URL+'/About'} element={<About/>} />
+         <Route path={process.env.PUBLIC_URL+'/Car-Travels-in-Guntur'} element={<About/>} />
          <Route path={process.env.PUBLIC_URL+'/Services'} element={<Services/>} />
-         <Route path={process.env.PUBLIC_URL+'/Tariff'} element={<Tariff/>} />
+         <Route path={process.env.PUBLIC_URL+'/Guntur-Car-Travels-Rates'} element={<Tariff/>} />
          <Route path={process.env.PUBLIC_URL+'/GalleryPage'} element={<GalleryPage/>} />
          <Route path={process.env.PUBLIC_URL+'/Contact'} element={<Contact/>} />
          <Route path={process.env.PUBLIC_URL+'/Locations/:id'} element={<Locations/>} />

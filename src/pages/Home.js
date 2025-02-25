@@ -89,8 +89,22 @@ let Appointment = () => {
         <section className="space" id="Appointment" ref={ref => {targetRef = ref}}>
             <div className="container">
                 <div className="row align-items-center">
+                <div className="col-lg-6">
+                        <h2 className="mt-n3">Best Car Travels</h2>
+                        <h2 className="mt-n3">For Your Travels Needs.</h2>
+                        <p className="mb-4">Satya Sai Car Travels has good fleet, provides all range of cars, tempos, minibuses to all types of occasions like temple visits, tourist places visits, site seeing, marriage bookings, one way droppings, round trips, business trips, corporate car bookings etc. We have built up trustworthy relationship with our esteemed customers.</p>
+                        {/* <div className="about-profile">
+                            <div className="avater"><img src={process.env.PUBLIC_URL+"/assets/img/normal/about_avater.jpg"} alt="avater" /></div>
+                            <div className="media-body">
+                                <h3 className="name">Bhaskar</h3><span className="desig">Proprietor</span>
+                            </div>
+                        </div> */}
+                        <Link to={process.env.PUBLIC_URL+"/Car-Travels-in-Guntur"} className='as-btn'>Discover More</Link>
+                    </div>
                     <div className="col-lg-6 pe-xl-5 mb-5 mb-lg-0">
+                        
                     <form className="booking-form4" onSubmit={handleSubmit}>
+                    <h4 style={{color: '#fff', textAlign:'center'}}>Book A Taxi</h4>
                         <div className="row">
                             <div className="form-group col-sm-6">
                             <input type="text" className="form-control" id="name" name='name' placeholder="Your Name" value={inputs.name || ''} onChange={handleChange} /><i className="fal fa-user" />
@@ -133,18 +147,7 @@ let Appointment = () => {
                     </form>
 
                     </div>
-                    <div className="col-lg-6">
-                        <h2 className="mt-n3">Best Car Travels</h2>
-                        <h2 className="mt-n3">For Your Travels Needs.</h2>
-                        <p className="mb-4">Satya Sai Car Travels has good fleet, provides all range of cars, tempos, minibuses to all types of occasions like temple visits, tourist places visits, site seeing, marriage bookings, one way droppings, round trips, business trips, corporate car bookings etc. We have built up trustworthy relationship with our esteemed customers.</p>
-                        {/* <div className="about-profile">
-                            <div className="avater"><img src={process.env.PUBLIC_URL+"/assets/img/normal/about_avater.jpg"} alt="avater" /></div>
-                            <div className="media-body">
-                                <h3 className="name">Bhaskar</h3><span className="desig">Proprietor</span>
-                            </div>
-                        </div> */}
-                        <Link to={process.env.PUBLIC_URL+"/About"} className='as-btn'>Discover More</Link>
-                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -206,7 +209,7 @@ function Services() {
                             <div className="service-block_content">
                                 <h3 className="service-block_title"><a href="#">{item.name}</a></h3>
                                 <div className="service-block_text" dangerouslySetInnerHTML={{__html:item.description}}></div>
-                                <Link to={{pathname: process.env.PUBLIC_URL+"/",hash:"#Appointment"}} reloadDocument className="layer-btn" style={{position: 'absolute', bottom: '5%'}}>Book Now</Link>
+                                <Link to={{pathname: process.env.PUBLIC_URL+"/",hash:"#Appointment"}} reloadDocument className="as-btn" style={{position: 'absolute', bottom: '5%', padding: '15px 31px'}}>Book Now</Link>
                             </div>
                         </div>
                     </div>
